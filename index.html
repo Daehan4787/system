@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한 시스템 - 에어컨 설치 및 수리 전문</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Barun+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 링크 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS 추가 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header class="main-header" id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>대한 시스템</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">회사 소개</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#contact-methods">상담 방법</a></li>
+                    <li><a href="#pricing">가격 안내</a></li>
+                    <li><a href="#contact">오시는 길</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인 슬라이드 -->
+    <section class="main-slide">
+        <div class="slide-container">
+            <div class="slide-content active" style="background-image: url('img/1.png')">
+                <div class="text-box">
+                    <h1 class="slide-text title-large">대한 시스템</h1>
+                    <p class="slide-text title-small">십 수년 노하우로 고객 만족을 실현하는 에어컨 판매 및 설치 전문 업체입니다.</p>
+                </div>
+            </div>
+            <div class="slide-content" style="background-image: url('img/2.png')">
+                <div class="text-box">
+                    <h1 class="slide-text title-large">신뢰할 수 있는 서비스</h1>
+                    <p class="slide-text title-small">최고의 품질과 서비스를 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 슬라이드 네비게이션 (인디케이터) -->
+        <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+        </div>
+    </section>
+
+    <!-- 회사 소개 섹션 -->
+    <section id="about" class="section-white">
+        <div class="container">
+            <h2>회사 소개</h2>
+            <p class="centered-text">대한 시스템은 에어컨 설치 및 수리 전문 업체로, 오랜 경험과 기술력을 바탕으로 고객 만족을 최우선으로 합니다.</p>
+            <div class="row text-center">
+                <div class="col-md-4 about-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="역사와 전통">
+                        <div class="card-body">
+                            <h3 class="card-title">역사와 전통</h3>
+                            <p class="card-text">십 수년간의 경험으로 신뢰를 쌓아왔습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 about-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="전문 인력">
+                        <div class="card-body">
+                            <h3 class="card-title">전문 인력</h3>
+                            <p class="card-text">숙련된 전문가들이 최상의 서비스를 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 about-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="우수한 품질">
+                        <div class="card-body">
+                            <h3 class="card-title">우수한 품질</h3>
+                            <p class="card-text">최고의 품질로 고객 만족을 실현합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section id="services" class="section-gray">
+        <div class="container">
+            <h2>서비스</h2>
+            <div class="row text-center">
+                <!-- 첫 번째 행 -->
+                <div class="col-md-4 service-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="에어컨 설치">
+                        <div class="card-body">
+                            <h3 class="card-title">에어컨 설치</h3>
+                            <p class="card-text">고객님의 공간에 최적화된 에어컨 설치 서비스를 제공합니다.</p>
+                            <a href="#contact-methods" class="btn btn-primary">상담하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="에어컨 수리">
+                        <div class="card-body">
+                            <h3 class="card-title">에어컨 수리</h3>
+                            <p class="card-text">신속하고 정확한 수리로 에어컨의 성능을 복원합니다.</p>
+                            <a href="#contact-methods" class="btn btn-primary">상담하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="에어컨 청소">
+                        <div class="card-body">
+                            <h3 class="card-title">에어컨 청소</h3>
+                            <p class="card-text">전문적인 청소로 깨끗하고 쾌적한 실내 환경을 조성합니다.</p>
+                            <a href="#contact-methods" class="btn btn-primary">상담하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <!-- 두 번째 행 -->
+                <div class="col-md-6 service-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="이전 설치">
+                        <div class="card-body">
+                            <h3 class="card-title">이전 설치</h3>
+                            <p class="card-text">안전하고 꼼꼼한 이전 설치 서비스를 제공합니다.</p>
+                            <a href="#contact-methods" class="btn btn-primary">상담하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 service-item">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="중고 매입">
+                        <div class="card-body">
+                            <h3 class="card-title">중고 매입</h3>
+                            <p class="card-text">사용하지 않는 에어컨을 합리적인 가격에 매입합니다.</p>
+                            <a href="#contact-methods" class="btn btn-primary">상담하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 상담 방법 섹션 -->
+    <section id="contact-methods" class="section-white">
+        <div class="container text-center">
+            <h2>상담 방법</h2>
+            <p class="centered-text">전문가와의 상담을 통해 최적의 솔루션을 찾아드립니다.</p>
+            <div class="contact-buttons">
+                <a href="https://www.kakao.com" class="btn btn-kakao">
+                    <i class="fas fa-comment"></i> 카카오톡 상담
+                </a>
+                <a href="tel:010-1234-5678" class="btn btn-phone">
+                    <i class="fas fa-phone-alt"></i> 전화 상담
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 가격 안내 섹션 -->
+    <section id="pricing" class="section-gray">
+        <div class="container">
+            <h2>가격 안내</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>제품 이미지</th>
+                        <th>제품 종류</th>
+                        <th colspan="5">모든 가격은 전화 상담 바랍니다</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100x100" alt="벽걸이형 에어컨"></td>
+                        <td>벽걸이형 에어컨</td>
+                        <td colspan="5">전화 상담</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100x100" alt="스탠드형 에어컨"></td>
+                        <td>스탠드형 에어컨</td>
+                        <td colspan="5">전화 상담</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100x100" alt="가정용 2 in 1"></td>
+                        <td>가정용 2 in 1</td>
+                        <td colspan="5">전화 상담</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://via.placeholder.com/100x100" alt="천정형 에어컨"></td>
+                        <td>천정형 에어컨</td>
+                        <td colspan="5">전화 상담</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="highlight">※ 추가적인 설치 공사나 복잡한 배관 공사에 따라 추가 비용이 발생할 수 있습니다. 자세한 내용은 <strong>전화 상담</strong>을 통해 확인하세요.</p>
+        </div>
+    </section>
+
+    <!-- 오시는 길 -->
+    <section id="contact" class="section-white">
+        <div class="container">
+            <h2>오시는 길</h2>
+            <p class="centered-text">서울특별시 강남구 테헤란로 123, 10층</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen="" loading="lazy"></iframe>
+            <div class="contact-info text-center mt-5">
+                <h3>고객센터</h3>
+                <p>전화: 010-1234-5678</p>
+                <p>이메일: info@daehansystem.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 플로팅 버튼 -->
+    <div class="floating-buttons">
+        <a href="https://www.kakao.com" class="floating-btn btn-kakao" target="_blank">
+            <i class="fas fa-comment"></i>
+        </a>
+        <a href="tel:010-1234-5678" class="floating-btn btn-phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 대한 시스템. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- jQuery and Bootstrap JS (for responsive and interactive components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
